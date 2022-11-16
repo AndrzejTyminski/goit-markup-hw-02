@@ -10,7 +10,11 @@ body {
 :root {
   --blue-hover: #2196f3;
   --dark-black: #212121;
+  --gray: #757575;
+  --footer-color: #2F303A;
+  --line-height: 2;
 }
+
 
 
 
@@ -20,16 +24,100 @@ body {
   font-family: roboto;
   border: none;
   margin: .2em;
-  border-radius: 0.4em;
+  border-radius: 0.2em;
+  font-size:  1em;
+  cursor: pointer;
+  
+  
+
 }
 
 .button:hover
 {
  color: #ffffff;
  background-color: var(--blue-hover);
- }
+ text-shadow: 20px 20px 40px #858585;
+ box-shadow: 0px 3px 5px #bbbbbb;
+}
+ 
 
 .button:focus 
 { 
   color var(--dark-black);
 }                      
+
+.nav{
+  text-decoration: none;
+  list-style-type: none;
+  color: var(--dark-black);
+  font-size: 0.875em;
+  
+ 
+}
+
+.nav:hover {
+  color: var(--blue-hover);
+}
+
+
+figcaption > p {
+  color: var(--gray);
+  font-size: 1em;
+  font-size: medium;
+  
+}
+/* Selektor logo web studio*/
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+  font-size: 1.625em;
+  text-decoration: none;
+  }
+
+.logo:visited
+{color:white;}
+
+.footer {background-color: var(--footer-color);}
+
+.blue {color: var(--blue-hover);}
+.black {color: black;}
+
+.gray-links {  
+  color: var(--gray);
+  font-size: 1em;
+  text-decoration: none;
+  font-size: 0.875em;
+}
+
+
+ul > li >figure {
+  border-style: solid;
+  border-color: #eee;
+  border-width: 1px;
+ }
+
+
+h3 
+{
+font-weight: bold;
+font-size:  1.125em;
+color: var(--dark-black);
+}
+
+.addres-bottom-white {
+text-decoration: none;
+color: white;
+font-size: 0.875em;
+font-style: normal;
+line-height: var(--line-height);}
+
+.addres-bottom-gray {
+  color: #ACACB0;
+  font-style: normal;
+line-height: var(--line-height);
+}
+
+
+/*wylaczenie kropek w liscie*/ 
+ul {list-style: none;}
+
