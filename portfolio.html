@@ -4,19 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css">
-    <title>WebStudio</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>hw2-portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"/>
+
   </head>
   <body>
     <header>
-      <a href="index.html"><span>Web</span>Studio</a>
+      <a href="./index.html"><span>Web</span>Studio</a>
 
       <!--navigacja strony-->
-   
+
       <nav>
         <ul>
           <li><a href="#">Agencja</a></li>
-          <li><a href="#">Porfolio</a></li>
+          <li><a href="./portfolio.html">Porfolio</a></li>
           <li><a href="#">Kontakt</a></li>
         </ul>
       </nav>
@@ -26,41 +33,151 @@
         <li><a href="tel:+48111111111">+48 111 111 111</a></li>
       </ul>
     </header>
-   
-     
-
-
+    <main>
       <section>
-      <!--przyciski "wszystkie - strony..."-->
-      <div>
-        <ul>
-          <li><button type="button">Wszystkie</button></li>
-          <li><button type="button">Strony</button></li>
-          <li><button type="button">Aplikacje</button></li>
-          <li><button type="button">Dizajn</button></li>
-          <li><button type="button">Marketing</button></li>
+        <!--przyciski "wszystkie - strony - ..."-->
+
+        <ul >
+          <li><button class="button" type="button">Wszystkie</button></li>
+          <li><button class="button" type="button">Strony</button></li>
+          <li><button class="button" type="button">Aplikacje</button></li>
+          <li><button class="button" type="button">Dizajn</button></li>
+          <li><button class="button" type="button">Marketing</button></li>
         </ul>
-      </div>  
 
+        <!--grupa zdjec 9*9-->
 
-      <!--grupa zdjec 9*9-->
-      <div>
         <ul>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-          <li><a href=""><img src="" alt=""></a></li>
-        </ul>
-      </div>
+          <li>
+              <a href="#">
+                <figure>
+                  <img
+                  src="./images/technocrack.jpg"
+                  height="294"
+                  width="370"
+                  alt="laptop wyswietlający stronę internetowa"/></a>
+                    <figcaption>
+                      <h3>Technocrack</h3>
+                      <p>Strona internetowa</p>
+                    </figcaption>
+                </figure>
+          </li>
 
-
+          <li>
+            <a href="#">
+              <figure>
+                <img
+                src="./images/new-orlean.jpg"
+                height="294"
+                width="370"
+                alt="dwoch koszykarzy NBA"/></a>
+                  <figcaption>
+                    <h3>Grafika New Orlean vs Golden Star</h3>
+                    <p>Dizajn</p>
+                  </figcaption>
+              </figure>
+        </li>        
+          <li>
+          <a href="#">
+            <figure>
+              <img
+              src="./images/seafood.jpg"
+              height="294"
+              width="370"
+              alt="logo restauracji"/></a>
+                <figcaption>
+                  <h3>Restauracja Seafood</h3>
+                  <p>Aplikacja</p>
+                </figcaption>
+            </figure>
+      </li> 
+           <li>
+      <a href="#">
+        <figure>
+          <img
+          src="./images/projekt-prime.jpg"
+          height="294"
+          width="370"
+          alt="słuchawki nauszne"/></a>
+            <figcaption>
+              <h3>Projekt Prime</h3>
+              <p>Marketing</p>
+            </figcaption>
+        </figure>
+  </li>       
+       <li>
+        <a href="#">
+          <figure>
+            <img
+            src="./images/projekt-boxes.jpg"
+            height="294"
+            width="370"
+            alt="kartonowe pudełka"/></a>
+              <figcaption>
+                <h3>Projekt Boxes</h3>
+                <p>Aplikacja</p>
+              </figcaption>
+          </figure>
+    </li>          
+          
+  <li>
+    <a href="#">
+      <figure>
+        <img
+        src="./images/inspiration.jpg"
+        height="294"
+        width="370"
+        alt="monitor komputerow wyświetlający stronę inte,"/></a>
+          <figcaption>
+            <h3>Inspiration has no Borders</h3>
+            <p>Strona internetowa</p>
+          </figcaption>
+      </figure>
+</li>          
+<li>
+  <a href="#">
+    <figure>
+      <img
+      src="./images/limited-edition.jpg"
+      height="294"
+      width="370"
+      alt="czasopismo"/></a>
+        <figcaption>
+          <h3>Magazyn Limited Edition</h3>
+          <p>Dizajn</p>
+        </figcaption>
+    </figure>
+</li>          
+<li>
+  <a href="#">
+    <figure>
+      <img
+      src="./images/lab.jpg"
+      height="294"
+      width="370"
+      alt="papierowa metka"/></a>
+        <figcaption>
+          <h3>Projekt LAB</h3>
+          <p>Marketing</p>
+        </figcaption>
+    </figure>
+</li>          
+<li>
+  <a href="#">
+    <figure>
+      <img
+      src="./images/growing-bussines.jpg"
+      height="294"
+      width="370"
+      alt="laptop"/></a>
+        <figcaption>
+          <h3>Growing Bussines</h3>
+          <p>Aplikacja</p>
+        </figcaption>
+    </figure>
+</li>
+    
       </section>
-
     </main>
     <!--stopka strony-->
     <footer>

@@ -1,0 +1,28 @@
+/*  font-family: "Raleway", sans-serif;   */
+
+:root {
+  --blue-hover: #2196f3;
+  --dark-black: #212121;
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.button 
+{
+  color: var(--dark-black);
+  background-color: var(--blue-hover);
+  padding: 0.6em;
+  font-family: roboto;
+  border: none;
+  margin: .2em;
+  border-radius: 0.2em;
+}
+
+.button:hover 
+{
+  var(--blue-hover);
+ }
+
+.button:focus 
+{ var(--blue-hover);}                      
