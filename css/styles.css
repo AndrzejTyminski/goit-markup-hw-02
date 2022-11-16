@@ -77,7 +77,7 @@ figcaption > p {
 .logo:visited
 {color:white;}
 
-.footer {background-color: var(--footer-color);}
+
 
 .blue {color: var(--blue-hover);}
 .black {color: black;}
@@ -89,7 +89,13 @@ figcaption > p {
   font-size: 0.875em;
 }
 
-
+/* napisy pod zdjeciami*/
+h3 
+{
+font-weight: bold;
+font-size:  1.125em;
+color: var(--dark-black);
+}
 ul > li >figure {
   border-style: solid;
   border-color: #eee;
@@ -97,12 +103,9 @@ ul > li >figure {
  }
 
 
-h3 
-{
-font-weight: bold;
-font-size:  1.125em;
-color: var(--dark-black);
-}
+/*stopka*/
+
+.footer {background-color: var(--footer-color);}
 
 .addres-bottom-white {
 text-decoration: none;
@@ -117,6 +120,12 @@ line-height: var(--line-height);}
 line-height: var(--line-height);
 }
 
+.addres-bottom-gray-text-decoration {
+  color: #ACACB0;
+  font-style: normal;
+line-height: var(--line-height);
+text-decoration: none;
+}
 
 /*wylaczenie kropek w liscie*/ 
 ul {list-style: none;}
