@@ -23,12 +23,13 @@ body {
   border-radius: 0.2em;
 }
 
-ul > li .button:hover
+.button:hover
 {
  color: #ffffff;
  background-color: #2196f3;
  }
 
 .button:focus 
-{ color var(--dark-black);
-;}                      
+{ 
+  color var(--dark-black);
+}                      
