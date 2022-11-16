@@ -20,7 +20,7 @@ body {
   font-family: roboto;
   border: none;
   margin: .2em;
-  border-radius: 0.2em;
+  border-radius: 0.4em;
 }
 
 .button:hover
