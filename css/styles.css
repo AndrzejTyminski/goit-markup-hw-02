@@ -1,17 +1,19 @@
 /*  font-family: "Raleway", sans-serif;   */
 
-:root {
-  --blue-hover: #2196f3;
-  --dark-black: #212121;
+
 
 body {
   font-family: "Roboto", sans-serif;
 }
 
+:root {
+  --blue-hover: #2196f3;
+  --dark-black: #212121;
+}
+
+
 .button 
 {
-  color: var(--dark-black);
-  background-color: var(--blue-hover);
   padding: 0.6em;
   font-family: roboto;
   border: none;
@@ -19,10 +21,12 @@ body {
   border-radius: 0.2em;
 }
 
-.button:hover 
+ul > li .button:hover
 {
-  var(--blue-hover);
+ color: #ffffff;
+ background-color: #2196f3;
  }
 
 .button:focus 
-{ var(--blue-hover);}                      
+{ color var(--dark-black);
+;}                      
