@@ -11,7 +11,7 @@ body {
   --blue-hover: #2196f3;
   --dark-black: #212121;
 }
-/* #212121 */
+
 
 
 .button 
@@ -26,7 +26,7 @@ body {
 .button:hover
 {
  color: #ffffff;
- background-color: #2196f3;
+ background-color: var(--blue-hover);
  }
 
 .button:focus 
