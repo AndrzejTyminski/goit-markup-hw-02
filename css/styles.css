@@ -4,12 +4,14 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--dark-black);
 }
 
 :root {
   --blue-hover: #2196f3;
   --dark-black: #212121;
 }
+/* #212121 */
 
 
 .button 
