@@ -43,14 +43,13 @@ body {
   color: var(--dark-black);
   font-size: 0.875em;
   font-weight: 500;
-  
 }
 
 .nav:hover {
   color: var(--blue-hover);
 }
 
-/* LOREM IPSUM *4*/
+/* LOREM IPSUM index.html *4*/
 
 .loremipsum-h3 {
   font-size: 0.875em;
@@ -77,9 +76,11 @@ body {
   color: white;
 }
 
+/* web */
 .blue {
   color: var(--blue-hover);
 }
+/* studio */
 .black {
   color: var(--black);
 }
@@ -96,8 +97,8 @@ body {
   color: var(--blue-hover);
 }
 
-/* napisy pod zdjeciami*/
-.h3 {
+/* napisy pod zdjeciami Bold */
+.text-under-photo {
   font-weight: bold;
   font-size: 1.125em;
   color: var(--dark-black);
@@ -117,10 +118,9 @@ border-width: 1px;
 .figcaption-2th {
   color: var(--gray);
   font-size: 1em;
-
 }
 
-/*stopka szare tlo */
+/* stopka szare tlo */
 
 .footer {
   background-color: var(--footer-color);
@@ -134,15 +134,15 @@ border-width: 1px;
   line-height: 1.5em;
 }
 
-.addres-bottom-gray {
-  color: #acacb0;
+.email-addres-bottom-grey {
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   line-height: 1.5em;
   font-size: 0.875em;
 }
 
-.addres-bottom-gray-text-decoration {
-  color: #acacb0;
+.telephone-number-grey {
+  color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   line-height: var(--line-height);
   text-decoration: none;
