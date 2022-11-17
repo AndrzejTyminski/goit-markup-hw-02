@@ -13,6 +13,7 @@ body {
   --gray: #757575;
   --footer-color: #2F303A;
   --line-height: 2;
+  --black: #000000;
 }
 
 
@@ -80,7 +81,7 @@ body {
 }
   
 
-/*- logo web studio*/
+/*- logo web studio */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
@@ -94,8 +95,9 @@ body {
 
 
 .blue {color: var(--blue-hover);}
-.black {color: black;}
+.black {color: var(--black);}
 
+/* @ tel top */
 
 .gray-links {  
   color: var(--gray);
@@ -106,6 +108,8 @@ body {
 
 .gray-links:hover {color: var(--blue-hover);}
 
+
+
 /* napisy pod zdjeciami*/
 h3 
 {
@@ -113,20 +117,25 @@ font-weight: bold;
 font-size:  1.125em;
 color: var(--dark-black);
 }
+
+/* obramowanie zdjec wraz z napisami
 ul > li >figure {
   border-style: solid;
   border-color: #eee;
   border-width: 1px;
  }
+ /*
+
 
 /* stylizacja 2th napisu pod zdjeciami*/
 
-figcaption > p {
+.figcaption-2th {
   color: var(--gray);
   font-size: 1em;
   font-size: medium;}
 
-/*stopka tlo */
+
+  /*stopka szare tlo */
 
 .footer {background-color: var(--footer-color);}
 
@@ -151,8 +160,10 @@ line-height: var(--line-height);}
   text-decoration: none;
   }
 
-/*wylaczenie kropek w liscie*/ 
+/*wylaczenie kropek w ul*/ 
 ul {list-style: none;}
+
+/*index.html baner*/
 
 .text-main-banner {
   color: #ffffff;
