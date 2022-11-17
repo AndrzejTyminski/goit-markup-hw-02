@@ -21,13 +21,14 @@ body {
 
 .button 
 {
-  padding: 0.6em;
+  
   font-family: roboto;
   border: none;
-  margin: .2em;
+  /*margin: 0.2em;*/
   border-radius: 0.2em;
   font-size:  1em;
   cursor: pointer;
+  line-height: 1.625em;
   
   
 
@@ -54,7 +55,8 @@ body {
   list-style-type: none;
   color: var(--dark-black);
   font-size: 0.875em;
-  
+  font-weight: 500;
+  line-height: 1em;
  
 }
 
@@ -139,15 +141,15 @@ line-height: var(--line-height);}
 .addres-bottom-gray {
   color: #ACACB0;
   font-style: normal;
-line-height: var(--line-height);
+  line-height: 1em;
 }
 
 .addres-bottom-gray-text-decoration {
   color: #ACACB0;
   font-style: normal;
-line-height: var(--line-height);
-text-decoration: none;
-}
+  line-height: var(--line-height);
+  text-decoration: none;
+  }
 
 /*wylaczenie kropek w liscie*/ 
 ul {list-style: none;}
