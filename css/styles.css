@@ -126,11 +126,10 @@ border-width: 1px;
   line-height: 1.71;
 }
 
-.email-addres-bottom-grey {
+
+
+.addres-bottom-white:visited {
   color: rgba(255, 255, 255, 0.6);
-  font-style: normal;
-  line-height: 1.71;
-  font-size: 14px;
 }
 
 .telephone-number-grey {
@@ -155,6 +154,14 @@ ul {
   text-align: center;
 }
 
+.email-addres-bottom-grey {
+color: rgba(255, 255, 255, 0.6);
+}
+
+
+  
 .logo-studio-white {
   color: #ffffff;
 }
+
+
