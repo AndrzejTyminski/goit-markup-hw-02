@@ -17,9 +17,9 @@ body {
   border: none;
   /*margin: 0.2em;*/
   border-radius: 0.2em;
-  font-size: 1em;
+  font-size: 16px;
   cursor: pointer;
-  line-height: 1.6;
+  line-height: 1.62;
   font-weight: 500;
 }
 
@@ -40,7 +40,7 @@ body {
   text-decoration: none;
   list-style-type: none;
   color: inherit;
-  font-size: 0.875em;
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -51,14 +51,14 @@ body {
 /* LOREM IPSUM index.html *4*/
 
 .loremipsum-h3 {
-  font-size: 0.875em;
-  line-height: 2;
+  font-size: 14px;
+  line-height: 1.14;
   text-transform: uppercase;
 }
 
 .text-under-lorem {
   color: var(--gray);
-  font-size: 0.875em;
+  font-size: 14px;
   line-height: 1.71;
 }
 
@@ -66,7 +66,7 @@ body {
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: bold;
-  font-size: 1.625em;
+  font-size: 26px;
   text-decoration: none;
 }
 
@@ -84,7 +84,7 @@ body {
 .gray-links {
   color: var(--gray);
   text-decoration: none;
-  font-size: 0.875em;
+  font-size: 14px;
 }
 
 .gray-links:hover {
@@ -94,7 +94,7 @@ body {
 /* napisy pod zdjeciami Bold */
 .text-under-photo {
   font-weight: bold;
-  font-size: 1.125em;
+  font-size: 16px;
   color: inherit;
 }
 
@@ -111,7 +111,7 @@ border-width: 1px;
 
 .figcaption-2th {
   color: var(--gray);
-  font-size: 1em;
+  font-size: 16px;
 }
 
 /* stopka szare tlo */
@@ -122,25 +122,23 @@ border-width: 1px;
 
 .addres-bottom-white {
   text-decoration: none;
-  color: white;
-  font-size: 0.875em;
   font-style: normal;
-  line-height: 1.7;
+  line-height: 1.71;
 }
 
 .email-addres-bottom-grey {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  line-height: 1.7;
-  font-size: 0.875em;
+  line-height: 1.71;
+  font-size: 14px;
 }
 
 .telephone-number-grey {
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
-  line-height: 1.7;
+  line-height: 1.71;
   text-decoration: none;
-  font-size: 0.875em;
+  font-size: 14px;
 }
 
 /*wylaczenie kropek w ul*/
@@ -153,11 +151,10 @@ ul {
 .text-main-banner {
   color: #ffffff;
   font-weight: 900;
-  font-size: 2.75em;
+  font-size: 44px;
   text-align: center;
 }
 
 .logo-studio-white {
   color: #ffffff;
-  
 }
