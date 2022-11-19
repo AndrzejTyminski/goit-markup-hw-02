@@ -1,7 +1,6 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--dark-black);
-  body:focus{}
 }
 
 :root {
@@ -73,7 +72,7 @@ body {
 }
 
 .logo:visited {
-  color: inherit;
+  color: black;
 }
 
 /* web */
